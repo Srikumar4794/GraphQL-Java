@@ -49,7 +49,7 @@ public class GraphQLDataFetcher {
         };
     }
 
-/*    public DataFetcher getAuthorDataFetcher() {
+    public DataFetcher getAuthorDataFetcher() {
         return dataFetchingEnvironment -> {
             Map<String,String> book = dataFetchingEnvironment.getSource();
             String authorId = book.get("authorId");
@@ -59,5 +59,5 @@ public class GraphQLDataFetcher {
                     .findFirst()
                     .orElse(null);
         };
-    }*/
+    }
 }
